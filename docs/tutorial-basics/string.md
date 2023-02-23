@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Strings
 Strings in Python are surrounded by either single or double quotation marks. They are used to represent textual characters such as name, place or animal. 
 

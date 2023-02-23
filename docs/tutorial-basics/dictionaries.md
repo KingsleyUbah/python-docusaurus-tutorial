@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Dictionaries
 A Dictionary is a collection which is unordered, changebale and indexed. It's comprised of proprties, which appear in name: value pairs. It doen't acceopt duplicate members.
 

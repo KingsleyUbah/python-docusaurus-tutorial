@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Lists
 A List is a collection who is ordered and changeable, allows duplicate members.
 

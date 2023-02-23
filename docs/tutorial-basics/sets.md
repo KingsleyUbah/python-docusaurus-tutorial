@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Sets
 A Set is a collection which is unordered and unindexed. Have no duplicate members.
 

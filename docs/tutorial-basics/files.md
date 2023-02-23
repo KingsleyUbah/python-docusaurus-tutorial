@@ -1,3 +1,7 @@
+---
+sidebar_position: 12
+---
+
 # Working with Files
 Python has functions for creating, reading, updating, and deleting files.
 

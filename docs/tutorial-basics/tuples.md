@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Tuples
 A Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
 
