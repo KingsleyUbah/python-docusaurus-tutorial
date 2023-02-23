@@ -32,7 +32,7 @@ In this case, the else block will run because the if block is not true.
 
 ## elif
 You can create multiple in-between brances to run code when the right trigger is activated. This is done using `elif`.
-```
+```python title="my-python-app/conditionals.py"
 # elif
 if x > y:
   print(f'{x} is greater than {y}')
@@ -44,19 +44,19 @@ else:
 S in this case, we add a third branch to account for siutations where x and y are equal.
 
 ## Logical Operators
-```
+```python title="my-python-app/conditionals.py"
 # and
 if x > 2 and x <= 10:
     print(f'{x} is greater than 2 and less than or equal to 10')
 ```
 
-```
+```python title="my-python-app/conditionals.py"
 # or
 if x > 2 or x <= 10:
     print(f'{x} is greater than 2 or less than or equal to 10')
 ```
 
-```
+```python title="my-python-app/conditionals.py"
 # not
 if not(x == y):
   print(f'{x} is not equal to {y}')
@@ -64,7 +64,7 @@ if not(x == y):
 
 # Membership operator
 
-```
+```python title="my-python-app/conditionals.py"
 numbers = [1,2,3,4,5]
 
 #  in
