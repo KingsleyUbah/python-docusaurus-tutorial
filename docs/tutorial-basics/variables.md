@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Variables
 A Python variable is a reserved memory location to store values. 
 
