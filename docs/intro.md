@@ -3,28 +3,70 @@ sidebar_position: 1
 slug: /
 ---
 
-# Getting Started
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
+# Getting Started
 Welcome to the Python documentation!
 
 If you're new to Python, we recommend starting with the learn course. The interactive course with quizzes will guide you through everything you need to know to use Python.
 
 If you have questions about anything related to Next.js, you're always welcome to ask me on [Twitter](https://twitter.com/kingchuuks).
 
-### System Requirements
-To run Python without issues, your system run one of these OS:
-- Linux: Ubuntu 16.04 to 17.10
-- Windows 7 to 10
-- MacOS
-- 2GB RAM (4GB preferably)
+## System Requirements
 
-## Install Python using the installer
-To get the newest version of Python:
+<Tabs groupId="operating-systems">
+  <TabItem value="win" label="Windows">
+    <ul>
+        <li> Windows 7 to 10 </li>
+        <li> 2GB RAM (4GB preferably) </li>
+    </ul>    
+  </TabItem>
+  <TabItem value="mac" label="macOS">
+    <ul>
+        <li> mac10 or higher </li>
+        <li> 2GB RAM (4GB preferably) </li>
+    </ul>
+  </TabItem>
+  <TabItem value="lin" label="Linux">
+    <ul>
+        <li> Ubuntu 16.04 to 17.10 </li>
+        <li> 2GB RAM (4GB preferably) </li>
+    </ul>
+  </TabItem>
+</Tabs>
 
-1. Download the installer package from Python's [official website](https://www.python.org/downloads/)
-2. Double-click the package to start the installation process
-3. Follow the on-screen instructions in the Python installer
-4. Once fully installed, open Python's installation directory in a new Finder window
+## Install Python
+
+<Tabs groupId="install-methods">
+  <TabItem value="win" label="Windows">
+    <ol>
+        <li> Download the installer package from Python's <a href='https://www.python.org/downloads/'>official website</a></li>
+        <li> Double-click the package to start the installation process </li>
+        <li> Follow the on-screen instructions in the Python installer </li>
+        <li> Once fully installed, open Python's installation directory in a new Finder window </li>
+    </ol>    
+  </TabItem>
+  <TabItem value="mac" label="macOS">
+    <ol>
+        <li> Download the installer package from Python's <a href='https://www.python.org/downloads/'>official website</a></li>
+        <li> Double-click the package to start the installation process </li>
+        <li> Follow the on-screen instructions in the Python installer </li>
+        <li> Once fully installed, open Python's installation directory in a new Finder window </li>
+    </ol>    
+  </TabItem>
+  <TabItem value="lin" label="Linux">     
+    <p>Run these commands:</p>
+    <div>    
+        <pre>
+            $ sudo apt-get update                    
+        </pre>
+    </div>
+    <div>
+        <pre> $ sudo apt-get install python3.6 </pre>
+    </div>
+  </TabItem>
+</Tabs>
 
 ## Confirm Your Python Installation
 Check if Python is correctly installed:
@@ -38,9 +80,21 @@ print('Hello, world!')
 4. If you got "Hello, world", then Python is properly installed
 
 ## Install a source-code editor
+To write Python code, you need a source-code editor. 
+
+<details><summary>What is an IDE?</summary>
+<p>
 A source-code editor allows you to write and execute code with ease. Most advanced editors come with an in-built terminal for running commands and scripts, as well as extensions to help ypu add features to make development more seamless.
 
-Popular code editors for Python are [PyCharm](https://www.jetbrains.com/pycharm/), [Visual Studio Code](https://code.visualstudio.com/) (or VSCode), [Sublime Text](https://www.sublimetext.com/3) and [Atom](https://github.com/atom). Some of these editors are free to use while others are paid softwares.
+<br />
+
+**Here's a VSCode example:**
+
+<img src="img/vsccode.png"/>
+</p>
+</details>
+
+Popular code editors for Python are <a href="https://www.jetbrains.com/pycharm/">PyCharm</a>, <a href="https://code.visualstudio.com/">Visual Stuido Code</a> (or VSCode), <a href="https://www.sublimetext.com/3">Sublime Text</a> and <a href="https://www.sublimetext.com/3">Atom</a>. Some of these editors are free to use while others are paid softwares.
 
 :::tip Tip
 
