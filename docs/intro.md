@@ -7,7 +7,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # Getting Started
-Welcome to the Python documentation!
+Welcome to Python Tuts, the Python documentation for beginners!
 
 If you're new to Python, we recommend starting with the learn course. The interactive course with quizzes will guide you through everything you need to know to use Python.
 
@@ -84,7 +84,7 @@ To write Python code, you need a source-code editor.
 
 <details><summary>What is an IDE?</summary>
 <p>
-A source-code editor allows you to write and execute code with ease. Most advanced editors come with an in-built terminal for running commands and scripts, as well as extensions to help ypu add features to make development more seamless.
+An integrated development environment is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of at least a source code editor, build automation tools and a debugger.
 
 <br />
 
